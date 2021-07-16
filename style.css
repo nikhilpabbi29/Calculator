@@ -1,0 +1,40 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+#container{
+     border: 1px solid black;
+     width: 400px;
+     margin: 50px auto;
+}
+#calculator{
+    border: 2px solid black;
+    width: 90%;
+    margin: 10px auto;
+}
+button{
+    display:block ;
+    height: 100%;
+    width: 100%;
+    font-size: 24px;
+}
+h1 {
+    text-align: center;
+}
+td:active{
+    transform: scale(0.8);
+}
+#screen {
+    text-align: center;
+    font-size: 24px;
+    display: block;
+    margin: 5px auto;
+}
+table {
+    margin: 10px auto;
+}
+td{
+    height: 70px;
+    width: 70px;
+    transition: 100ms;
+}
